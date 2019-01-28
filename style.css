@@ -8,7 +8,7 @@ body{
 }
 html, body {
  
-  background-color: #fafaff;;
+  background-color: #fafaff;
 }
 
 a{
@@ -71,12 +71,11 @@ ul {
 
 }
 /* in order to write over the image
-.intro{
-	position: relative;
-}
-.c_left{
-	position: absolute;
-}*/
+.intro{position: relative;}
+
+.c_left{position: absolute;}*/
+
+
 
 .container_grid{
 	display: grid;
@@ -98,7 +97,6 @@ ul {
 	margin-top: -50px;
 	margin-left: 20px;
 	
-
 }
 .intro_p{
 	font-size: 18px;
@@ -236,13 +234,18 @@ ul {
 }
 
 /*--------------twitter insta vk-------------*/
-
+.block5{
+	margin: auto;
+	padding-bottom: 30px;
+	background-color: white;
+}
 .container2{
 	background-color: white;
 	padding-top: 75px;
-	text-align:center;
 	display: grid;
 	grid-template-columns: auto auto auto;
+	justify-content: center;
+	grid-column-gap: 120px;
 }
 
 .d1 a{
@@ -268,7 +271,6 @@ ul {
 	padding: 10px 50px;
 	background-color: white;
 	color: #FF6347;
-	margin-left: -300px;
 }
 
 .d3{
@@ -278,6 +280,7 @@ ul {
 .d2{
 	display: grid;
 	grid-template-columns: 10px 1fr;
+	grid-column-gap: 30px;
 }
 /*---------------footer-------------------*/
 
@@ -287,5 +290,303 @@ footer{
 	padding-bottom: 20px;
 	color: white;
 	text-align: center;
+}
+
+/*--------------------MIN-WIDTH:1000PX-----------------------------*/
+
+@media (max-width:1000px) {
+
+	*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+ 
+  background-color: #fafaff;;
+}
+
+a{
+	text-decoration: none;
+}
+ li{
+ 	list-style: none;
+ }
+
+header{
+	display:block;
+	background-color: #fafaff;
+}
+
+nav{
+	padding-top: 20px;
+	background-color:#fafaff; 
+}
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+.topnav{
+	display: flex;
+}
+.topnav a{
+	color: black;
+	text-align:center;
+	padding: 0 16px;
+	font-family: verdana;
+	font-size: 12px;
+}
+.topnav a:hover{
+	border-bottom: 1px solid #FF1493;
+	color: #FF1493;
+}
+.secondnav{
+	margin-bottom: 60px;
+	margin-left: -90px;
+}
+.num{
+	font-size: 17px;
+	font-weight: bold;
+	font-family: verdana;
+}
+.zakaz{
+	border:solid 1px #FF1493;
+	padding: 9px 21px;
+	margin-left: 15px;
+	background-color:#fafaff;
+	color: #FF1493;
+}
+
+/*-----------------intro------------------------*/
+.intro{
+	background-color: #fafaff;
+}
+
+.all_content{
+	width: 70%;
+	margin: auto;
+	background-color: #fafaff;
+}
+
+.container_grid{
+	align-content: center;
+	display: block;
+}
+.c_left h2{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 25px;
+	display: grid;
+	width: 10px;
+	margin-top: 80px;
+}
+.ms2{
+	background-color: #fafaff
+}
+.c_right img{
+	max-width:100%;
+    display:block;
+    height:auto;
+
+}
+.intro_p{
+	font-size: 18px;
+	font-family: verdana;
+	color: 	#778899;
+	margin-top: 20px;
+	float: left;
+}
+.uznatt {
+	border:1px solid;
+	padding: 12px 50px;
+	background-color: #FF6347;
+	color: white;
+	margin-top: 35px;
+	float: left;
+}
+
+
+/*-----------что я делаю?---------------------------*/
+.content1{
+	width: 70%;
+	margin: auto;
+	background-color: white;
+}
+.bg{
+	width: 100%;
+	background-color: white;
+}
+.services{
+	align-content: center;
+	display: block;
+}
+
+.main-services h1{
+	text-align: center;
+	padding: 60px 0 60px 0;
+	font-size: 25px;
+	font-family: verdana;
+	margin-top: 20px;
+}
+
+.services p{
+	color: 	#778899;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+.stoimost button{
+	border:1px solid;
+	padding: 12px 50px;
+	background-color: #FF6347;
+	color: white;
+	margin: 70px auto;
+
+
+}
+.stoimost {
+	text-align: center;
+	padding-bottom: 30px;
+}
+/*-------------Примеры моих работ-----------*/
+.ms2{
+	width: 70%;
+	margin: auto;
+}
+.service{
+	width: 100%;
+	align-content: center;
+	display: block;
+}
+
+.main-services2 h1{
+	text-align: center;
+	padding: 60px 0 60px 0;
+	font-size: 25px;
+	font-family: verdana;
+	margin-top: 20px;
+}
+.service img{
+    max-width:100%;
+    display:block;
+    height:auto;
+}
+.service p{
+	color: 	#778899;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+.zakazat_pr button {
+	border:1px solid;
+	padding: 12px 50px;
+	background-color: #FF6347;
+	color: white;
+
+}
+.zakazat_pr{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+
+/*---------Адаптивная верстка---------------*/
+
+.block4{
+	background-color:#FF6347;
+	color: white;
+	width: 100%;
+
+}
+.block4 h2{
+	font-size: 30px;
+	font-family: vardana;
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	width: 60%;
+	margin: auto;
+}
+.block4 p{
+	font-family: verdana;
+	font-size: 15px;
+	padding-bottom: 40px;
+	width: 60%;
+	margin: auto;
+}
+
+/*--------------twitter insta vk-------------*/
+.block5{
+	margin: auto;
+	padding-bottom: 30px;
+	background-color: white;
+}
+.container2{
+	width: 100%;
+	background-color: white;
+	padding-top: 55px;
+	display: block;
+	justify-content: center;
+	grid-column-gap: 20px;
+	text-align: center;
+}
+
+.d1 a{
+	display: block;
+	color: 	#778899;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.sm{
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: 50px 50px 50px 50px;
+	justify-content: center;
+}
+
+.d2 img{
+	float: left;
+}
+
+.zakazzvon {
+	margin-top: 20px;
+	border:1px solid #FF6347;
+	padding: 10px 50px;
+	background-color: white;
+	color: #FF6347;
+}
+
+.d3{
+	 display:grid;
+    grid-template-rows: auto auto;
+}
+.d2{
+	width: 100%;
+	margin-top: 20px;
+	display: grid;
+	grid-template-rows: 10px 1fr;
+	grid-template-columns: auto auto;
+	grid-row-gap: 30px;
+	justify-content: center;
+/*---------------footer-------------------*/
+
+footer{
+	background-color: #2F4F4F;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-align: center;
+}
 }
 
