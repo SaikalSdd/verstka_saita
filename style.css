@@ -7,7 +7,7 @@ body{
 	padding: 0;
 }
 html, body {
-  overflow-x: hidden;
+ 
   background-color: #fafaff;;
 }
 
@@ -123,11 +123,16 @@ ul {
 	margin: auto;
 	background-color: white;
 }
+.bg{
+	width: 100%;
+	background-color: white;
+}
 .services{
 	text-align: center;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 15px;
+	clear: both;
 }
 
 .main-services h1{
@@ -149,18 +154,18 @@ ul {
 	font-family: verdana;
 	font-size: 12px;
 }
-.stoimost a{
+.stoimost button{
 	border:1px solid;
 	padding: 12px 50px;
 	background-color: #FF6347;
 	color: white;
+	margin: 70px auto;
+
 
 }
 .stoimost {
 	text-align: center;
-	margin-top: 70px;
-	margin-bottom: 70px;
-
+	padding-bottom: 30px;
 }
 /*-------------Примеры моих работ-----------*/
 .ms2{
@@ -191,7 +196,7 @@ ul {
 	font-family: verdana;
 	font-size: 12px;
 }
-.zakazat_pr a {
+.zakazat_pr button {
 	border:1px solid;
 	padding: 12px 50px;
 	background-color: #FF6347;
@@ -203,7 +208,6 @@ ul {
 	margin-top: 70px;
 	margin-bottom: 70px;
 }
-
 
 
 /*---------Адаптивная верстка---------------*/
@@ -239,8 +243,8 @@ ul {
 	text-align:center;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	
 }
+
 .d1 a{
 	display: block;
 	color: 	#778899;
@@ -248,15 +252,17 @@ ul {
 	padding-bottom: 10px;
 	font-family: verdana;
 	font-size: 12px;
-
 }
+
 .sm{
 	display: grid;
 	grid-template-columns: 50px 50px 50px 50px;
 }
+
 .d2 img{
 	float: left;
 }
+
 .zakazzvon {
 	border:1px solid #FF6347;
 	padding: 10px 50px;
@@ -264,6 +270,7 @@ ul {
 	color: #FF6347;
 	margin-left: -300px;
 }
+
 .d3{
 	 display:grid;
     grid-template-rows: auto auto;
